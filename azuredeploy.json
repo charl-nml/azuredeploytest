@@ -11,7 +11,7 @@
     }
   },
   "variables": {
-    "appServicePlanName": "[concat(parameters('webAppName'),'-asp')]",
+    "appServicePlanName": "[concat(parameters('webAppName'),'-asp')]"
   },
   "resources": [
     {
@@ -24,7 +24,7 @@
       },
       "sku": {
         "name": "F1",
-        "tier": "Free",
+        "tier": "Free"
       }
     },
     {
